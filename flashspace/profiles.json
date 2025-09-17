@@ -1,0 +1,85 @@
+{
+  "profiles" : [
+    {
+      "id" : "8602263F-F365-482D-B14C-636DE1AFD00F",
+      "name" : "Default",
+      "workspaces" : [
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.brave.Browser",
+              "iconPath" : "/Applications/Brave Browser.app/Contents/Resources/app.icns",
+              "name" : "Brave Browser"
+            }
+          ],
+          "display" : "Built-in Retina Display",
+          "id" : "3357DD89-9DD1-4A18-B3D3-FF03BD248B9E",
+          "name" : "Browser",
+          "shortcut" : "ctrl+1",
+          "symbolIconName" : "globe"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.tinyspeck.slackmacgap",
+              "iconPath" : "/Applications/Slack.app/Contents/Resources/electron.icns",
+              "name" : "Slack"
+            },
+            {
+              "bundleIdentifier" : "com.microsoft.teams2",
+              "iconPath" : "/Applications/Microsoft Teams.app/Contents/Resources/AppIcon.icns",
+              "name" : "Microsoft Teams"
+            }
+          ],
+          "display" : "Built-in Retina Display",
+          "id" : "1F26F898-8A33-4C7A-AAC1-D0C7157D722F",
+          "name" : "Discussion",
+          "shortcut" : "ctrl+2",
+          "symbolIconName" : "captions.bubble.fill"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.microsoft.Outlook",
+              "iconPath" : "/Applications/Microsoft Outlook.app/Contents/Resources/Outlook.icns",
+              "name" : "Microsoft Outlook"
+            }
+          ],
+          "display" : "Built-in Retina Display",
+          "id" : "BB7A4B8F-EF55-4426-9573-047AF6329895",
+          "name" : "Email",
+          "shortcut" : "ctrl+3",
+          "symbolIconName" : "envelope.fill"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.microsoft.VSCode",
+              "iconPath" : "/Applications/Visual Studio Code.app/Contents/Resources/Code.icns",
+              "name" : "Code"
+            }
+          ],
+          "display" : "Built-in Retina Display",
+          "id" : "CAF4BD7E-0C5A-4F9F-BD85-D6C5C0A9D62B",
+          "name" : "Coding",
+          "shortcut" : "ctrl+4",
+          "symbolIconName" : "ladybug.fill"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.spotify.client",
+              "iconPath" : "/Applications/Spotify.app/Contents/Resources/AppIcon.icns",
+              "name" : "Spotify"
+            }
+          ],
+          "display" : "Built-in Retina Display",
+          "id" : "C984E20A-70EF-4837-B626-9D266594E9E8",
+          "name" : "Music",
+          "shortcut" : "ctrl+5",
+          "symbolIconName" : "music.note.list"
+        }
+      ]
+    }
+  ]
+}
