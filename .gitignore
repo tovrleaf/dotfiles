@@ -1,2 +1,6 @@
-thefuck/ # Brew
-zsh/ # https://github.com/tovrleaf/zsh-files
+# From Homebrew
+thefuck/
+zsh/
+
+# My GitHub
+zsh/
