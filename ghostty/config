@@ -1,0 +1,29 @@
+theme = molokai
+background = 1C2021
+
+font-family = "MesloLGS NF"
+
+font-thicken=true
+
+shell-integration-features = no-cursor,sudo,no-title
+cursor-style = block
+cursor-color = 1b53ad
+
+selection-background = #ffd866
+selection-foreground = #000000
+
+mouse-hide-while-typing = true
+
+window-padding-balance = true
+window-save-state = always
+macos-titlebar-style = tabs
+macos-titlebar-proxy-icon = visible
+window-decoration = auto
+
+window-padding-x = 5
+window-padding-y = 5
+
+window-height = 30
+window-width = 110
+
+macos-icon = glass
