@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+
+cd "$(dirname "$0")"
+
+# Library values
+source "lib/colors.sh"
+source "lib/icons.sh"
+
+# Known directories
+PLUGIN_DIR="plugins"
+ITEM_DIR="items"
+
+# Default configs
+export FONT="SF Pro" # Needs to have Regular, Bold, Semibold, Heavy and Black variants
+export NERD_FONT="Liga SFMono Nerd Font"
+
+export PADDINGS=3
+
+bar_config=(
+	blur_radius=20
+	color="$BASE"
+	corner_radius=6
+	height=40
+	margin=7
+	notch_width=0
+	padding_left=10
+	padding_right=10
+	position=top
+	shadow=on
+	sticky=on
+	topmost=off
+	y_offset=7
+)
+
+# Setting up the general bar appearance and default values
+sketchybar --bar "${bar_config[@]}" \
+	--default \
+	updates=when_shown
+
+sketchybar --update
+
+echo "sketchybar configuation loaded.."
