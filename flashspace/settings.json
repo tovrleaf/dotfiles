@@ -32,10 +32,10 @@
   "showMenuBarIcon" : true,
   "showMenuBarTitle" : true,
   "showSpaceControl" : "ctrl+escape",
-  "showUnassignedApps" : "ctrl+§",
   "skipEmptyWorkspacesOnSwitch" : false,
   "spaceControlCurrentDisplayWorkspaces" : false,
-  "spaceControlMaxColumns" : 6,
+  "spaceControlHideEmptyWorkspaces" : false,
+  "spaceControlNumberOfColumns" : 0,
   "spaceControlUpdateScreenshotsOnOpen" : false,
   "swipeDown3FingerAction" : "none",
   "swipeDown4FingerAction" : "none",
@@ -47,6 +47,7 @@
   "swipeUp3FingerAction" : "none",
   "swipeUp4FingerAction" : "none",
   "switchWorkspaceWhenPipCloses" : true,
+  "toggleFocusedAppAssignment" : "ctrl+§",
   "workspaceTransitionDimming" : 0.2,
   "workspaceTransitionDuration" : 0.30000000000000004
 }
