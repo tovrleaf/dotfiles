@@ -16,7 +16,10 @@ sketchybar \
 	--bar "${bar_config[@]}" \
 	--default "${default_config[@]}"
 
+# Right
+source "$ITEM_DIR/clock.sh"
 source "$ITEM_DIR/brew.sh"
+source "$ITEM_DIR/weather.sh"
 
 sketchybar --hotload on
 sketchybar --update

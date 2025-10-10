@@ -49,18 +49,18 @@ default_config=(
 )
 
 popup_events=(
-    mouse.entered
-    mouse.exited
-    mouse.exited.global
+  mouse.entered
+  mouse.exited
+  mouse.exited.global
 )
 
 popup() {
-    sketchybar --set $NAME popup.drawing=$1
+  sketchybar --set "$NAME" popup.drawing="$1"
 }
 
 add_popup_item() {
-    local name="$1"
-    local label="$2"
-    sketchybar --add item "$name" popup."$NAME" \
-               --set "$name" label="$label" padding_right=10
+  local name="$1"
+  local label="$2"
+  sketchybar --add item "$name" popup."$NAME" \
+    --set "$name" label="$label" padding_right=10
 }
