@@ -18,8 +18,15 @@ sketchybar \
 
 # Right
 source "$ITEM_DIR/clock.sh"
-source "$ITEM_DIR/brew.sh"
 source "$ITEM_DIR/weather.sh"
+
+source "$ITEM_DIR/brew.sh"
+source "$ITEM_DIR/battery.sh"
+
+sketchybar --add bracket group1 brew battery \
+	--set group1 "${divider[@]}"
+
+
 
 sketchybar --hotload on
 sketchybar --update
