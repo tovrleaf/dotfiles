@@ -23,6 +23,7 @@ weather_temp=(
 	label.padding_right=0
 	background.padding_right=-15
 	background.padding_left=5
+	padding_right=0
 )
 
 weather_details=(

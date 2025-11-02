@@ -48,6 +48,16 @@ default_config=(
   popup.background.shadow.drawing=on
 )
 
+divider=(
+  background.color="$BASE"
+  background.border_color="$GREY"
+  background.corner_radius=6
+  background.border_width=1
+  background.height=30
+  background.padding_left=5
+  background.padding_right=10
+)
+
 popup_events=(
   mouse.entered
   mouse.exited

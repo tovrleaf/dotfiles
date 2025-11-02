@@ -5,7 +5,8 @@ source "lib/functions.sh"
 brew=(
   icon=􀐛
   update_freq=300
-  width=55
+  width=35
+  padding_right=10
   script="$PLUGIN_DIR/brew.sh"
 )
 

@@ -21,14 +21,14 @@
         {
           "apps" : [
             {
-              "bundleIdentifier" : "com.tinyspeck.slackmacgap",
-              "iconPath" : "/Applications/Slack.app/Contents/Resources/electron.icns",
-              "name" : "Slack"
-            },
-            {
               "bundleIdentifier" : "com.microsoft.teams2",
               "iconPath" : "/Applications/Microsoft Teams.app/Contents/Resources/AppIcon.icns",
               "name" : "Microsoft Teams"
+            },
+            {
+              "bundleIdentifier" : "com.tinyspeck.slackmacgap",
+              "iconPath" : "/Applications/Slack.app/Contents/Resources/electron.icns",
+              "name" : "Slack"
             }
           ],
           "display" : "Built-in Retina Display",
