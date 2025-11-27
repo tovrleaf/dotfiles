@@ -6,12 +6,14 @@ export NERD_FONT="Liga SFMono Nerd Font"
 export PADDINGS=3 # All paddings use this value (icon, label, background)
 
 bar_config=(
-  height=40
-  color="$BASE"
+  height=36
+  #color="$BASE"
+  #background.color=0xffc3c6cb
+  #background=0xffc3c6cb
 
-  blur_radius=20
-  corner_radius=6
-  margin=7
+  blur_radius=10
+  corner_radius=0
+  margin=0
   notch_width=0
   padding_left=10
   padding_right=10
@@ -19,7 +21,7 @@ bar_config=(
   shadow=on
   sticky=on
   topmost=off
-  y_offset=2
+  y_offset=0
 )
 
 default_config=(

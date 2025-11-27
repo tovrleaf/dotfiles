@@ -19,10 +19,10 @@ weather_temp=(
 	script="$PLUGIN_DIR/weather.sh"
 	click_script="$POPUP_CLICK_SCRIPT"
 	label.align=right
-	label.padding_left=-5
+	label.padding_left=0
 	label.padding_right=0
-	background.padding_right=-15
-	background.padding_left=5
+	background.padding_right=0
+	background.padding_left=0
 	padding_right=0
 )
 

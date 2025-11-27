@@ -16,17 +16,21 @@ sketchybar \
 	--bar "${bar_config[@]}" \
 	--default "${default_config[@]}"
 
+# Left
+#source "$ITEM_DIR/spaces.sh"
+
 # Right
 source "$ITEM_DIR/clock.sh"
 source "$ITEM_DIR/weather.sh"
 
+
 source "$ITEM_DIR/brew.sh"
+source "$ITEM_DIR/space_separator.sh"
 source "$ITEM_DIR/battery.sh"
 
-sketchybar --add bracket group1 brew battery \
+# Right: group
+sketchybar --add bracket group1 brew space_separator battery \
 	--set group1 "${divider[@]}"
-
-
 
 sketchybar --hotload on
 sketchybar --update

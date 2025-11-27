@@ -58,7 +58,7 @@ weather_icon_map() {
 
 render_bar() {
   sketchybar --set weather.icon icon="$icon" icon.font.size=10.0 icon.padding_right=2
-  sketchybar --set weather.temp label="$icon $temp""°" label.padding_left=2
+  sketchybar --set weather.temp label="${icon}${temp}""°" label.padding_left=2
 }
 
 render_popup() {
