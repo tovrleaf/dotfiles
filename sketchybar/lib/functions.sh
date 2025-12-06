@@ -56,7 +56,7 @@ divider=(
   background.corner_radius=6
   background.border_width=1
   background.height=30
-  background.padding_left=5
+  background.padding_left=10
   background.padding_right=10
 )
 
