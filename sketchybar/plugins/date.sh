@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-sketchybar --set "$NAME" label="$(date '+%Y-%d-%m')"
+DAY=$(date '+%d')
+MONTH=$(date '+%m')
+sketchybar --set "$NAME" label="$(printf '%s\n%s' "$DAY" "$MONTH")"
