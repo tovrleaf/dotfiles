@@ -1,0 +1,17 @@
+[user]
+	name = "Niko Kivelä"
+	email = "niko@tovrleaf.com"
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RF
+[interactive]
+	diffFilter = diff-so-fancy --patch
+[init]
+	defaultBranch = main
+[includeIf "gitdir:~/Documents/Code/sok/"]
+	path = "~/.gitconfig.work"
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+[delta]
+	navigate = true
+[merge]
+	conflictStyle = zdiff3
