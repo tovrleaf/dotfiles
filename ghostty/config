@@ -2,6 +2,7 @@ theme = molokai
 background = 1C2021
 
 font-family = "MesloLGS NF"
+font-family = "Roboto_Mono_Medium_for_Powerline"
 
 font-thicken=true
 
