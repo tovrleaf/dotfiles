@@ -24,6 +24,11 @@
               "bundleIdentifier" : "com.tinyspeck.slackmacgap",
               "iconPath" : "/Applications/Slack.app/Contents/Resources/electron.icns",
               "name" : "Slack"
+            },
+            {
+              "bundleIdentifier" : "com.microsoft.teams2",
+              "iconPath" : "/Applications/Microsoft Teams.app/Contents/Resources/AppIcon.icns",
+              "name" : "Microsoft Teams"
             }
           ],
           "display" : "Built-in Retina Display",
@@ -36,8 +41,13 @@
           "apps" : [
             {
               "bundleIdentifier" : "com.microsoft.Outlook",
-              "iconPath" : "/Applications/Microsoft Outlook.app/Contents/Resources/Outlook.icns",
+              "iconPath" : "/Applications/Microsoft Outlook.app/Contents/Resources/Outlook_macOS.icns",
               "name" : "Microsoft Outlook"
+            },
+            {
+              "bundleIdentifier" : "com.apple.finder",
+              "iconPath" : "/System/Library/CoreServices/Finder.app/Contents/Resources/Finder.icns",
+              "name" : "Finder"
             }
           ],
           "display" : "Built-in Retina Display",
@@ -52,6 +62,11 @@
               "bundleIdentifier" : "com.microsoft.VSCode",
               "iconPath" : "/Applications/Visual Studio Code.app/Contents/Resources/Code.icns",
               "name" : "Code"
+            },
+            {
+              "bundleIdentifier" : "com.mitchellh.ghostty",
+              "iconPath" : "/Applications/Ghostty.app/Contents/Resources/Ghostty.icns",
+              "name" : "Ghostty"
             }
           ],
           "display" : "Built-in Retina Display",
@@ -62,11 +77,6 @@
         },
         {
           "apps" : [
-            {
-              "bundleIdentifier" : "notion.id",
-              "iconPath" : "/Applications/Notion.app/Contents/Resources/electron.icns",
-              "name" : "Notion"
-            },
             {
               "bundleIdentifier" : "com.spotify.client",
               "iconPath" : "/Applications/Spotify.app/Contents/Resources/AppIcon.icns",
