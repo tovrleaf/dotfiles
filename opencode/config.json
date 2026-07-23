@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  // Theme configuration
+  "autoupdate": false,
+  "compaction": {
+    "auto": true,
+    "prune": true
+  },
+  "theme": "monokai",
+}
